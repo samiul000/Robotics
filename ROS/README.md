@@ -11,8 +11,10 @@ To get started:
 1. Install WSL on your Windows system.
 2. Once WSL is installed, download and install Ubuntu from the Microsoft Store.
 3. After setting up Ubuntu, follow the step-by-step instructions provided in the following files to complete the ROS 2 setup:
-     ● ***WSL_SETUP.md***
-     ● ***Executable.md***
+
+   ● ***WSL_SETUP.md***
+   ● ***Executable.md***
+   
 By following these instructions, you'll be able to fully configure your ROS 2 workspace in a WSL environment on Windows.
 
 ### Links
