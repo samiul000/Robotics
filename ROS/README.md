@@ -19,3 +19,4 @@ By following these instructions, you'll be able to fully configure your ROS 2 wo
 
 ### Links
 1. Installing Linux on Windows: https://youtu.be/zZf4YH4WiZo?si=E2wI7DsejxgiE0Bt
+2. ROS2 Documentation: https://docs.ros.org/en/foxy/index.html
