@@ -1,2 +1,5 @@
 # ROS2 x WSL
-![ROS2 logo](https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg)
+![<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" width="200" />
+  <img src="images/image2.png" width="200" />
+</div>](https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg)
