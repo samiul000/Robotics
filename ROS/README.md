@@ -1,8 +1,8 @@
 # ROS2 x WSL
-![<div align="center">
+<div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" width="400" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Windows_Subsystem_for_Linux_logo.png" width="200" />
-</div>]
+</div>
 
 ## Introduction
 This documentation provides a clear and streamlined process for setting up a ROS 2 development environment on a Windows machine using WSL (Windows Subsystem for Linux).
