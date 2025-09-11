@@ -4,7 +4,7 @@
 ## 1. Turtlesim Installation
 ```bash
 sudo apt update
-sudo apt install ros_humble_turtlesim
+sudo apt install ros-humble-turtlesim
 ```
 ## 2. See list of packages
 ```bash
