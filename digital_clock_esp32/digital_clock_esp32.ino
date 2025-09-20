@@ -35,7 +35,7 @@ const long gmtOffset_sec = 21600;   // Bangladesh = GMT+6:00
 const int daylightOffset_sec = 0;
 
 // --- Time ---
-int mHour = 0, mMinute = 0, mSecond = 0;
+int mHour = 0, mMinute = 0;
 int curTimeInt = 0;
 long preMillis = 0;
 uint8_t blink_status = 0x40; 
@@ -50,7 +50,7 @@ bool alarmTriggered = false;
 String htmlPage() {
   String page = "<!DOCTYPE html><html><head><meta charset='UTF-8'>";
   page += "<meta name='viewport' content='width=device-width, initial-scale=1'>";
-  page += "<title>ESP32 Alarm Clock</title></head><body style='font-family:sans-serif;text-align:center;'>";
+  page += "<title>ESP32 Digital Clock</title></head><body style='font-family:sans-serif;text-align:center;'>";
   page += "<h2>ESP32 Clock</h2>";
 
   page += "<p><b>Current Time:</b> " + String(mHour) + ":" + (mMinute < 10 ? "0" : "") + String(mMinute) + "</p>";
@@ -142,10 +142,9 @@ void loop() {
 
   // --- Alarm check ---
   if (alarmEnabled && !alarmTriggered) {
-    if (mHour == alarmHour && mMinute == alarmMinute && mSecond == 0) {
+    if (mHour == alarmHour && mMinute == alarmMinute) {
       alarmTriggered = true;
       Serial.println("ALARM!!! It's time.");
-
       digitalWrite(ALARM_PIN, HIGH);
     }
   }
@@ -164,6 +163,7 @@ void loop() {
     seg7display.showNumberDecEx(curTimeInt, blink_status, true, 4, 0);
   }
 }
+
 
 
 
