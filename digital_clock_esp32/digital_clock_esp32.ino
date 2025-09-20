@@ -93,7 +93,6 @@ void updateLocalTime() {
   if (getLocalTime(&timeinfo)) {
     mHour = timeinfo.tm_hour;
     mMinute = timeinfo.tm_min;
-    mSecond = timeinfo.tm_sec;
   } else {
     Serial.println("Failed to obtain time from NTP");
   }
@@ -165,6 +164,7 @@ void loop() {
     seg7display.showNumberDecEx(curTimeInt, blink_status, true, 4, 0);
   }
 }
+
 
 
 
