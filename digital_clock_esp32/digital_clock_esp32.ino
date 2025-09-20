@@ -99,6 +99,7 @@ void updateLocalTime() {
   }
 }
 
+// --- Main Setup Code ---
 void setup() {
   Serial.begin(115200);
   seg7display.setBrightness(0x0f);
@@ -164,4 +165,5 @@ void loop() {
     seg7display.showNumberDecEx(curTimeInt, blink_status, true, 4, 0);
   }
 }
+
 
