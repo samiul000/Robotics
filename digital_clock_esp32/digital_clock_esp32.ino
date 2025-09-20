@@ -110,7 +110,7 @@ void setup() {
 
   // WiFi
   WiFi.begin(ssid, password);
-  Serial.print("Connecting to WiFi....");
+  Serial.print("Connecting to WiFi");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
@@ -165,5 +165,6 @@ void loop() {
     seg7display.showNumberDecEx(curTimeInt, blink_status, true, 4, 0);
   }
 }
+
 
 
