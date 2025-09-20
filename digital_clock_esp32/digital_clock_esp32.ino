@@ -1,3 +1,8 @@
+/* ----------------------------------------------
+ESP32 Based Digital Clock with 
+Set Hour, Minute & Alarm feature using Web-Server
+---------------------------------------------- */
+
 #include <WiFi.h>
 #include <WebServer.h>
 #include <TM1637Display.h>
@@ -159,3 +164,4 @@ void loop() {
     seg7display.showNumberDecEx(curTimeInt, blink_status, true, 4, 0);
   }
 }
+
