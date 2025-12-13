@@ -1,13 +1,13 @@
 <img src="/smart_lock_system/pictures/bootup_image.jpg" alt="Smart Lock Bootup" align="center" width="300" height="350"/>
 
-##Introduction
+## Introduction
 Smart Lock is a security lock system with three-way unlocking methods.
 ```
 - HTTP endpoint
 - Fingerprint authentication
 - PIN via keypad
 ```
-##Components used:
+## Components used:
 ```
 1. ESP32
 2. Adafruit fingerprint sensor
@@ -19,6 +19,6 @@ Smart Lock is a security lock system with three-way unlocking methods.
 8. 3S 18650 battery holder (modified to 2P, as the UPS module supports 3.7V–4.2V)
 9. DC power adapter module
 ```
-##Setup
+## Setup
 <img src="/smart_lock_system/pictures/setup.jpg" alt="Setup" align="center" width="500" height="500"/>
 
