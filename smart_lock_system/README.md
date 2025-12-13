@@ -27,11 +27,11 @@ Main diagram of the initial setup can be found in the *smart_lock_system_diagram
 ***Note: UPS Module was added later in the system between main power supply, battery holder and buck converter which is not included in the diagram as I could not find any fritzing file of the module.***
 
 ## Code
-<img src="/smart_lock_system/pictures/code_snippet.png" alt="Code Snippet" align="center" width="300" height="400"/>
+<img src="/smart_lock_system/pictures/code_snippet.png" alt="Code Snippet" align="center" width="350" height="550"/>
 
 ## Webpage
-<img src="/smart_lock_system/pictures/webpage.jpg" alt="Webpage" align="center" width="300" height="400"/>
+<img src="/smart_lock_system/pictures/webpage.jpg" alt="Webpage" align="center" width="350" height="550"/>
 
-User can *unlock* and *lock* using the webpage locally hosted on the ESP32 by entering the pin setup using the keypad.
+User can *unlock* and *lock* using the webpage locally hosted on the ESP32 by entering the pin, setup using the keypad.
 
 
