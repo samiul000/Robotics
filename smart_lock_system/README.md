@@ -21,6 +21,6 @@ Smart Lock is a security lock system with three-way unlocking methods.
 ```
 ## Setup
 <img src="/smart_lock_system/pictures/setup.jpg" alt="Setup" align="center" width="500" height="500"/>
-Main diagram of the initial setup can be found in the `smart_lock_system_diagram.pdf` file.
+Main diagram of the initial setup can be found in the *smart_lock_system_diagram.pdf* file.
 
 ***Note: UPS Module was added later in the system between main power supply, battery holder and buck converter which is not included in the diagram as I could not find any fritzing file of the module.***
