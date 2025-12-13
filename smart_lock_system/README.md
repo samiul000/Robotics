@@ -34,4 +34,59 @@ Main diagram of the initial setup can be found in the *smart_lock_system_diagram
 
 User can *unlock* and *lock* using the webpage locally hosted on the ESP32 by entering the pin, setup using the keypad.
 
+## System Overview
+
+This system provides two main menus for user interaction: A-Menu (Fingerprint Options) and B-Menu (PIN Options).
+The menus can be accessed using the keypad.
+
+- Press `A` to open *A-Menu*
+
+- Press `B` to open *B-Menu*
+
+### A-Menu: Fingerprint Options
+```
+1. Unl   - Unlock the system using a fingerprint scan
+2. Count - Show the total number of registered fingerprints
+3. Del   - Delete a fingerprint using its ID
+4. Add   - Add a new fingerprint
+```
+
+### Fingerprint Registration
+
+- The user must scan the same fingerprint twice for accuracy.
+
+- After successful scanning, the system assigns a unique ID to the fingerprint.
+
+- This ID is required to delete the fingerprint later.
+
+### Fingerprint Deletion
+
+- The user must enter the fingerprint ID.
+
+- The system deletes the fingerprint associated with the provided ID.
+
+### B-Menu: PIN Options
+```
+1. Unl   - Unlock the system using the keypad
+2. Chng  - Change the existing PIN
+3. AP    - Display the webpage access point (AP) address
+4. Reset - Reset the entire system
+```
+
+### PIN Change
+
+- The user must enter the current PIN.
+
+- If the PIN is correct, the system allows the user to set a new PIN.
+
+- If the PIN is incorrect, the request is denied.
+
+### System Startup Behavior
+
+- On startup, the system checks for an existing configuration file.
+
+- The configuration file contains saved PIN and fingerprint data.
+
+- If no configuration is found, the system prompts the user to complete the initial setup using the menus
+
 
