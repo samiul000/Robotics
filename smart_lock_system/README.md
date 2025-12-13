@@ -1,1 +1,1 @@
-![Smart Lock Bootup](/pictures/bootup_image.jpg)
+![Smart Lock Bootup](/smart_lock_system/pictures/bootup_image.jpg)
