@@ -1,4 +1,4 @@
-<img src="/smart_lock_system/pictures/bootup_image.jpg" alt="Smart Lock Bootup" align="center" width="300" height="350"/>
+<img src="/smart_lock_system/pictures/smart_lock.jpg" alt="Smart Lock" align="center" width="300" height="350"/>
 
 ## Introduction
 Smart Lock is a security lock system with three-way unlocking methods.
