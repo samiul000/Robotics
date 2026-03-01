@@ -1,4 +1,10 @@
-<img src="/smart_lock_system/pictures/smart_lock_sys.jpg" alt="Smart Lock" align="center" width="500" height="550"/>
+<div align="center">
+<h1>Smart Lock System</h1>
+
+<p>
+<img src="/smart_lock_system/pictures/smart_lock_sys.jpg" alt="Smart Lock" width="500" height="550"/>
+</p>
+</div>
 
 ## Introduction
 Smart Lock is a security lock system with three-way unlocking methods.
@@ -20,19 +26,26 @@ Smart Lock is a security lock system with three-way unlocking methods.
 9. DC power adapter module
 ```
 ## Setup
-<img src="/smart_lock_system/pictures/setup.jpg" alt="Setup" align="center" width="500" height="500"/>
 
-Main diagram of the initial setup can be found in the *smart_lock_system_diagram.pdf* file.
+<div align="center">
+  <img src="/smart_lock_system/pictures/setup.jpg" alt="Setup" align="center" width="500" height="500"/>
+</div>
+
+Main diagram of the initial setup can be found in the *[smart_lock_system_diagram.pdf](smart_lock_system_diagram.pdf)* file.
 
 ***Note: UPS Module was added later in the system between main power supply, battery holder and buck converter which is not included in the diagram as I could not find any fritzing file of the module.***
 
-## Code
-<img src="/smart_lock_system/pictures/code_snippet.png" alt="Code Snippet" align="center" width="350" height="550"/>
+## Code (Structure)
+<div align="center">
+  <img src="/smart_lock_system/pictures/code_snippet.png" alt="Code Snippet" align="center" width="350" height="550"/>  
+</div>
 
 ## Webpage
-<img src="/smart_lock_system/pictures/webpage.jpg" alt="Webpage" align="center" width="350" height="550"/>
+<div align="center">
+  <img src="/smart_lock_system/pictures/webpage.jpg" alt="Webpage" align="center" width="350" height="550"/>  
+</div>
 
-User can *unlock* and *lock* using the webpage locally hosted on the ESP32 by entering the pin, setup using the keypad.
+User can `unlock` and `lock` using the webpage locally hosted on the ESP32 by entering the pin, setup using the keypad.
 
 ## System Overview
 
